@@ -292,7 +292,7 @@ button [data-testid="stMarkdownContainer"] p {{
 }}
 
 [data-testid="stMainBlockContainer"] {{
-    padding-bottom: 200px !important;
+    padding-bottom: 100px !important;
     padding-left: 3rem !important;
     padding-right: 3rem !important;
 }}
