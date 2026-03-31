@@ -1450,7 +1450,7 @@ elif st.session_state.page == "cascade":
             with col:
                 st.markdown(f'<div class="metric-card"><div class="metric-value">{val}</div><div class="metric-label">{lbl}</div></div>', unsafe_allow_html=True)
 
-        col_line, col_bar = st.columns(2)
+        col_line, col_bar = st.columns([2,1])
 
         # LEFT: Staircase chart - uses same cascade_optimization as table
         with col_line:
