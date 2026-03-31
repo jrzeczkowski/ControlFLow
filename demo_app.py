@@ -1625,10 +1625,10 @@ elif st.session_state.page == "roi":
     # Top metrics
     c1, c2, c3, c4 = st.columns(4)
     for col, (val, lbl, typ) in zip([c1,c2,c3,c4], [
-        (f"{saving_year:,.1f} PLN", t("savings_year"), "orange"),
-        (f"{saving_month:,.1f} PLN", t("savings_month"), "orange"),
-        (f"{impl_cost:,.1f} PLN", t("investment"), "blue"),
-        (f"{payback_months:.1f} {t('month')}", t("payback"), "blue"),
+        (f"{saving_year:,.0f} PLN", t("savings_year"), "orange"),
+        (f"{saving_month:,.0f} PLN", t("savings_month"), "orange"),
+        (f"{impl_cost:,.0f} PLN", t("investment"), "blue"),
+        (f"{payback_months:.0f} {t('month')}", t("payback"), "blue"),
     ]):
         with col:
             cls = "metric-value" if typ == "orange" else "metric-value-blue"
