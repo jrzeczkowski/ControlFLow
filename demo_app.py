@@ -77,6 +77,15 @@ h1, h2, h3 {{
 }}
 
 
+[data-testid="stBottom"] {{
+    display: none !important;
+}}
+
+footer {{
+    display: none !important;
+}}
+
+
 /* Etykiety i tekst selectbox */
 .stSelectbox label,
 .stSelectbox label p,
