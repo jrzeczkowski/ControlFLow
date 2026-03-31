@@ -45,6 +45,7 @@ html, body, [class*="css"] {{
 
 .stApp {{
     background: linear-gradient(135deg, {DARK_BG} 0%, #0d1f3c 50%, #0a1628 100%);
+    padding: 0 2rem !important;
 }}
 
 /* Sidebar */
