@@ -1479,12 +1479,12 @@ elif st.session_state.page == "cascade":
             fig_line = go.Figure()
             fig_line.add_trace(go.Scatter(
                 x=Q_range, y=P_base_list,
-                name=t("without_ml"),
+                name="Bez ML" if lang=="PL" else "Without ML",
                 line=dict(color=BLUE_START, width=2, dash='dot'), mode='lines'
             ))
             fig_line.add_trace(go.Scatter(
                 x=Q_range, y=P_ml_list_c,
-                name=t("with_ml"),
+                name="Z ML" if lang=="PL" else "With ML",
                 line=dict(color=ORANGE_START, width=3, shape='hv'),
                 fill='tozeroy', fillcolor='rgba(251,176,64,0.08)', mode='lines'
             ))
