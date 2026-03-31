@@ -217,6 +217,7 @@ button [data-testid="stMarkdownContainer"] p {{
     min-width: 220px !important;
 }}
 
+
 .stTabs [aria-selected="true"] {{
     background: linear-gradient(135deg, {ORANGE_START}, {ORANGE_END}) !important;
     color: white !important;
@@ -289,6 +290,13 @@ button [data-testid="stMarkdownContainer"] p {{
     background-clip: text;
     font-weight: 800;
 }}
+
+[data-testid="stMainBlockContainer"] {{
+    padding-bottom: 200px !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
